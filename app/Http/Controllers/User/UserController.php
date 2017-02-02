@@ -56,7 +56,7 @@ class UserController extends Controller
         if($user){
 
             if($user->user_email!=$request->get("user_email")){
-                $userFind = Users::where('user_email',$request->get('user_email'));
+                $userFind = Users::where('user_email',$request->get('user_email'))->first();
                 if($userFind){
                     return response()->json([
                         'code'=>422,
@@ -236,7 +236,7 @@ class UserController extends Controller
 
         if($user){
             if($user->user_name!=$request->get('user_name')){
-                $find_user = Users::where('user_name',$request->get('user_name'));
+                $find_user = Users::where('user_name',$request->get('user_name'))->first();
                 if($find_user){
                     return response()->json([
                         'code'=>422,
@@ -247,7 +247,7 @@ class UserController extends Controller
                 }
             }
             if($user->user_email!=$request->get("user_email")){
-                $find_user = Users::where('user_email',$request->get('user_email'));
+                $find_user = Users::where('user_email',$request->get('user_email'))->first();
                 if($find_user){
                     return response()->json([
                         'code'=>422,
