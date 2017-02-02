@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.index_my .avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
