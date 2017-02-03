@@ -19,6 +19,7 @@ Route::get('/',[
 Route::group(['middleware'=>['userCenter'],'prefix'=>'u'],function (){
     Route::get('/','Index\Controllers@index');
     Route::get('/mySetting','Index\Controllers@mySetting');
+    Route::get('/about','Index\Controllers@about');
 });
 
 Route::group(['middleware'=>['userCenter','admin'],'prefix'=>'admin'],function (){

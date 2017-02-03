@@ -61,4 +61,10 @@ class Controllers extends Controller
     {
         return view('user.siteSetting');
     }
+
+    //关于
+    public function about()
+    {
+        return view('user.about');
+    }
 }

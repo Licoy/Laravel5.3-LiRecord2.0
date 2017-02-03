@@ -66,6 +66,7 @@
                                         <li><a href="{{ url('/admin/notice') }}"><i class="fa fa-volume-up"></i>&nbsp;发布公告</a></li>
                                         <li><a href="{{ url('/admin/siteSetting') }}"><i class="fa fa-road"></i>&nbsp;站点设置</a></li>
                                     @endif
+                                    <li><a href="{{ url('/u/about') }}"><i class="fa fa-bookmark"></i>&nbsp;&nbsp;关于</a></li>
                                 </ul>
                             </li>
                             {{--个人--}}
