@@ -20,7 +20,7 @@ class CreateSitesTable extends Migration
             $table->string('describe');
             $table->string('logo');
             $table->string('ico');
-            $table->string('footer');
+            $table->text('footer');
             $table->timestamps();
         });
     }
