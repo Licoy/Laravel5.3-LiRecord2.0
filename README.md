@@ -17,7 +17,7 @@ LiRecord 2.0是一款基于Laravel 5.3进行开发的留言板系统。
 
 ```
 cd home/wwwroot/xxx/web #进入到你的web目录路径
-git clone https://git.oschina.net/licoy/LiRecord.git
+git clone https://github.com/Licoy/laravel5.3-LiRecord2.0.git
 ```
 
 2.通过composer更新项目
