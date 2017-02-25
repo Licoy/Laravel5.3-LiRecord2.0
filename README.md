@@ -25,7 +25,7 @@ git clone https://github.com/Licoy/laravel5.3-LiRecord2.0.git
 composer install
 ```
 
-3.cpoy  **.env.example**  为  **.env** 
+3.cpoy  **.env.example**  为  **.env** 
 
 4.创建一个数据库，在.env配置文件以下选项填入对应的值
 ```
@@ -42,26 +42,31 @@ DB_PASSWORD=root #数据库密码
 sudo chmod -R 777 storage/
 ```
 
-6.数据迁移
+6.生成laravel密钥
+```
+php artisan key:generate
+```
+
+7.数据迁移
 ```
 php artisan migrate
 ```
 
-7.填充数据
+8.填充数据
 ```
 php artisan db:seed
 ```
 
-8.重写模块
+9.重写模块
 > apache:开启mod_rewrite模块
 
 > nginx:参考[https://www.licoy.cn/2716.html](https://www.licoy.cn/2716.html)
 
 
-9.将apache或nginx的root目录指定为网站目录的public目录
+10.将apache或nginx的root目录指定为网站目录的public目录
 
 
-10.安装完成，访问你绑定的域名即可。（默认管理邮箱：admin@admin.com 密码：123456）
+11.安装完成，访问你绑定的域名即可。（默认管理邮箱：admin@admin.com 密码：123456）
 
 #许可证
 
