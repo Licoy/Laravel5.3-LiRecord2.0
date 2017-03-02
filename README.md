@@ -25,7 +25,7 @@ git clone https://github.com/Licoy/laravel5.3-LiRecord2.0.git
 composer install
 ```
 
-3.cpoy  **.env.example**  为  **.env** 
+3.copy  **.env.example**  为  **.env** 
 
 4.创建一个数据库，在.env配置文件以下选项填入对应的值
 ```
