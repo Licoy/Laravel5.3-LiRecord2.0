@@ -5,14 +5,14 @@ LiRecord 2.0是一款基于Laravel 5.3进行开发的留言板系统。
 # 演示
 [http://lirecord.licoy.cn](http://lirecord.licoy.cn)
 
-#安装前提
+# 安装前提
 1. PHP 5.3.2+
 1. 安装git
     安装教程：[http://www.cnblogs.com/zhcncn/p/4030078.html](http://www.cnblogs.com/zhcncn/p/4030078.html)
 2. 安装composer
     安装教程：[http://docs.phpcomposer.com/00-intro.html](http://docs.phpcomposer.com/00-intro.html)
 
-#安装步骤
+# 安装步骤
 1. clone lirecord 到你的服务器网站目录（clone前请先安装git）
 
 ```
