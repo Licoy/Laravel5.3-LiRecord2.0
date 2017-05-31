@@ -68,6 +68,6 @@ php artisan db:seed
 
 11.安装完成，访问你绑定的域名即可。（默认管理邮箱：admin@admin.com 密码：123456）
 
-#许可证
+# 许可证
 
 GPL V3
