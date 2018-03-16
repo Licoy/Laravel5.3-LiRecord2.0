@@ -21,14 +21,14 @@ git clone https://github.com/Licoy/laravel5.3-LiRecord2.0.git
 ```
 
 2.通过composer更新项目
-```
+```shell
 composer install
 ```
 
 3.copy  **.env.example**  为  **.env** 
 
 4.创建一个数据库，在.env配置文件以下选项填入对应的值
-```
+```shell
 DB_HOST=localhost #数据库地址
 DB_PORT=3306 #端口
 DB_DATABASE= #数据库名
